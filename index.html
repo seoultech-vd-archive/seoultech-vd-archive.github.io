@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>seoultech vd links</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+<style type="text/css">
+	html{font-family: 'Noto Sans KR', sans-serif;letter-spacing: -0.1rem;line-height: 1.3;}
+
+	body,ul,h1,p{margin: 0; padding: 0; background: black;}
+	h1{font-size: 3rem;color: gray}
+	li{list-style-type: none;}
+	a{text-decoration: none; font-size: 3rem; color: white;display: block;padding-left: 3rem;}
+
+
+</style>
+</head>
+<body>
+<h1>서울과기대<br>시각디자인전공<br><br></h1>
+<script type="text/javascript">
+	const linkData = [
+{"name":"홈페이지", "link":"http://vd.seoultech.ac.kr/"},
+{"name":"유튜브", "link":"https://youtube.com/channel/UCPu4k-yD3NpuXVkqvaadmXQ/"},
+{"name":"21졸전", "link":"https://seoultech-vd.github.io/2021VisualGardener"},
+{"name":"21과제전", "link":"https://seoultech-vd-archive.github.io/2021-termfinal/"}, 
+{"name":"20졸전", "link":"https://www.youtube.com/watch?v=KnI3UEzNhys&ab_channel=MajorLeegueStudio"},
+{"name":"20과제전", "link":"https://seoultech-vd-archive.github.io/2020-2nd-term-final/"}
+]
+	let t = document.createElement("ul");
+	t.className = "linkCon";
+
+	linkData.forEach((item,i,arr) => {
+		t.appendChild(makeLink(item["name"],item["link"]));
+	});
+
+	document.body.appendChild(t);
+
+	function makeLink(text,link){
+		let u = document.createElement("li");
+		let v = document.createElement("a");
+		v.href = link;
+		v.target = "_blank";
+		v.className = "links";
+		v.innerHTML = text;	
+		u.appendChild(v);
+		return u;
+	}
+	
+</script>
+</body>
+</html>
