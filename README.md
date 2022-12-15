@@ -1,4 +1,12 @@
-### Hi there 👋
+ARCHIEVE of<br><br>
+
+VISUAL COMMUNICATION DESIGN<br>
+COLLEGE OF ART & DESIGN<br>
+SEOUL NATIONAL UNIVERSITY of SCIENCE & TECHNOLOGY👋
+
+http://seoultech-vd-archive.github.io
+
+
 
 <!--
 **seoultech-vd-archive/seoultech-vd-archive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
