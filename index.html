@@ -38,13 +38,10 @@
 ]
 	let t = document.createElement("ul");
 	t.className = "linkCon";
-
 	linkData.forEach((item,i,arr) => {
 		t.appendChild(makeLink(item["name"],item["link"]));
 	});
-
 	document.body.appendChild(t);
-
 	function makeLink(text,link){
 		let u = document.createElement("li");
 		let v = document.createElement("a");
@@ -55,7 +52,6 @@
 		u.appendChild(v);
 		return u;
 	}
-	
 </script>
 </body>
 </html>
